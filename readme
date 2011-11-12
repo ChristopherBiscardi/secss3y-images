@@ -1,0 +1,19 @@
+Image Conversion To CSS3 using node.js
+______________
+
+Currently a 25 pixel width is hard coded in.
+
+
+RoadMap:
+
+Auto-detect width of image.
+Stream image information in for larger images (currently only supports a limited size)
+Generate less CSS classes(currently generates 1class/pixel)
+Generate less markup (consecutive similar pixels should be 1 div)
+Support More Browsers( Currently only webkit)
+
+
+Usage
+---------
+
+node app.js droplit\ copy.png
